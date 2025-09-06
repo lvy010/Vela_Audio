@@ -1,0 +1,81 @@
+# 音乐播放器模块 .gitignore
+
+# 编译生成的文件
+*.o
+*.obj
+*.a
+*.so
+*.elf
+*.bin
+*.hex
+music_player
+music_player_debug
+
+# 编译依赖文件
+.built
+.depend
+Make.dep
+*.dep
+
+# 构建目录
+build/
+dist/
+obj/
+
+# 临时和缓存文件
+*.tmp
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 调试文件
+*.dSYM/
+*.map
+*.lst
+gdb.txt
+core
+
+# IDE 文件
+.vscode/
+.idea/
+*.sublime-*
+
+# 日志文件
+*.log
+debug.log
+error.log
+
+# 测试文件
+test_output/
+*.test
+
+# 资源文件中的大文件（可选择性忽略）
+res/musics/*.mp3
+res/musics/*.wav
+res/musics/*.flac
+res/musics/*.ogg
+# 但保留示例文件
+!res/musics/sample.*
+
+# 用户自定义背景图片
+res/icons/background.png
+res/icons/custom_*
+
+# 配置文件备份
+res/config.json.bak
+res/musics/manifest.json.bak
+
+# 性能分析文件
+*.prof
+perf.data*
+
+# 文档生成文件
+docs/_build/
+docs/html/
+docs/latex/
+
+# 特定平台文件
+Thumbs.db
+ehthumbs.db
+Desktop.ini

@@ -1,0 +1,12 @@
+{
+  "musics": [
+    {
+      "path": "Letting go.mp3",
+      "name": "Letting Go",
+      "artist": "Passenger",
+      "cover": "music_page.png",
+      "total_time": 240000,
+      "color": "#FF6B6B"
+    }
+  ]
+}
